@@ -1,0 +1,26 @@
+.bookings-background {
+  background-image: url("/Booking.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* 2. add a dark overlay on top of the image */
+  background-color: rgba(0, 0, 0, 0.4);   /* 40% black over the image */
+  background-blend-mode: darken;
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.bookings-content {
+  background-color: rgba(255, 255, 255, 0.7); /* more transparent */
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}

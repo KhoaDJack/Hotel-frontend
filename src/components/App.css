@@ -1,0 +1,8 @@
+.content {
+  margin-left: 220px; /* same width as your sidebar */
+  padding: 2rem;
+  width: 100%;
+  max-width: 1800px; /* optional: to keep content nicely centered */
+  margin-right: auto;
+  box-sizing: border-box;
+}

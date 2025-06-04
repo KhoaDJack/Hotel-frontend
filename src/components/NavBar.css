@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #dc2626;
+  color: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%; /* ✅ Make sure it stretches full width */
+}
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* Space between icon and text */
+  padding: 8px 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logout-button {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* Space between icon and text */
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
